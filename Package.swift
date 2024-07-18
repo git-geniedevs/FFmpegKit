@@ -132,7 +132,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "libshadercCombined",
-            path: "Sources/libshadercCombined.xcframework"
+            path: "Sources/libshaderc_combined.xcframework"
         ),
 
         .binaryTarget(
