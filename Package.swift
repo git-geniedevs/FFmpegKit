@@ -33,7 +33,7 @@ let package = Package(
             name: "FFmpegKit",
             dependencies: [
                 "MoltenVK",
-                "libshadercCombined",
+                // "libshadercCombined",
                 "lcms2",
                 "libdav1d",
                 "libplacebo",
@@ -130,10 +130,10 @@ let package = Package(
             name: "MoltenVK",
             path: "Sources/MoltenVK.xcframework"
         ),
-        .binaryTarget(
-            name: "libshadercCombined",
-            path: "Sources/libshaderc_combined.xcframework"
-        ),
+        // .binaryTarget(
+        //     name: "libshadercCombined",
+        //     path: "Sources/libshaderc_combined.xcframework"
+        // ),
 
         .binaryTarget(
             name: "lcms2",
